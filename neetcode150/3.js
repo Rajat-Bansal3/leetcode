@@ -8,7 +8,6 @@ var lengthOfLongestSubstring = function (s) {
     }
     l[s[i]] = i;
     max_len = Math.max(max_len, i - start);
-    console.log(l[s[i]])
   }
   return max_len;
 };
